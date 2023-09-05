@@ -1,0 +1,5 @@
+variable "region" { default = "eu-central-1" }
+variable "cidr_block" { default = "192.168.0.0/25" }
+variable "public-subnets" { default = ["192.168.0.0/28", "192.168.0.16/28"] }
+variable "private-subnets" { default = ["192.168.0.64/28", "192.168.0.80/28"] }
+variable "key" { default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDvm8gNoRdp213KxGnI+Fl7Np77tV+FHJrWzzoIRfxJdGY10BUkgpSQn6AuKUMYP4h24j2wJfqO8KCAgEEBnKjk3ZFbcCWrrgS0VB0b9SlGP5EYRrG8F1OMR4KCPmkWaAO+J6V1dR25b7ZGLIuMXsUTiwv9YIitYsW0hJtM9w0XY5gI0quBVCTT1zkt6AT/6wnGn7xLKBYELQ4d+Jm03EXWuGVRTC7B5ofDaSWNHeQIlLSLAAOp1pTPEV4rJdtYuKAWkmLEVi4lCMO9yXHW69XkKAotaG7iiJar2kui26AKdOi2dNCj/lSN+udNYhmfwnAjl0ets5RmLvKiXLVFMb5jxjleFfZZLTS2svievjzDFXKG1/XapnWKQhbnUDSP27fkGzAJwDIvm2s9MwbAkB7IkoiI+bI6XJ/NkhvDDM9X8KYxgtq1jizyUQaVo+J+WF4uPrUxvDkyGPCalMOMd0sa/O2DvNk9/OYhYPvKH7JYZZ1kqncovsYoHMxBkns/UMk=" }
